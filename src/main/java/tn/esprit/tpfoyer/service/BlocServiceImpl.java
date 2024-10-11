@@ -16,7 +16,7 @@ import java.util.List;
 @AllArgsConstructor
 @Slf4j  // Simple Loggining Façade For Java
 public class BlocServiceImpl  implements IBlocService {
-//sami
+
 
     BlocRepository blocRepository;
 
