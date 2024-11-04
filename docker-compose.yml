@@ -16,7 +16,9 @@ services:
     depends_on:
       - mysqldb
     image: samimejri/alpine:1.0.0
-    #build: ./
+    build:
+      context: ./
+      dockerfile: Dockerfile
     restart: on-failure
     ports:
       - 8090:8089
