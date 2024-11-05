@@ -2,7 +2,7 @@
 FROM openjdk:17-jdk-alpine
 
 # Spécifier le port exposé par votre application Spring Boot
-EXPOSE 8082
+EXPOSE 8089
 
 # Copier le livrable généré dans l'image Docker
 # Assurez-vous que le fichier .jar généré dans `target` correspond à votre projet
