@@ -14,7 +14,7 @@ services:
 
   spring-app:
     depends_on:
-      - mysql-db
+      - mysqldb
     image: samimejri/alpine:1.0.0
     restart: on-failure
     ports:
